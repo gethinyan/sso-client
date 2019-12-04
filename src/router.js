@@ -11,6 +11,11 @@ export default new Router({
       path: '/signIn',
       name: 'SignIn',
       component: () => import('./components/auth/SignIn.vue')
+    },
+    {
+      path: '/getToken',
+      name: 'GetToken',
+      component: () => import('./components/jsonp/GetToken.vue')
     }
   ]
 })
